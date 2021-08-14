@@ -2,9 +2,15 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  // template: `
+  //   <h1>Hola mundo de nuevo </h1>
+  // `
+  //template: '<span>Fernando</span>'
+  templateUrl: 'app.component.html',
+  //styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'bases';
+
 }
+
+// public nivel de acceso
